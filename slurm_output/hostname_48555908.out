@@ -1,0 +1,7 @@
+['multithreading.py', 'benchmark/allpdb0777/concatenated.a2m', '16']
+Traceback (most recent call last):
+  File "multithreading.py", line 126, in <module>
+    names, seqs = parse_fasta(sys.argv[offset+1])
+  File "multithreading.py", line 32, in parse_fasta
+    lines = open(filename, "r")
+FileNotFoundError: [Errno 2] No such file or directory: 'benchmark/allpdb0777/concatenated.a2m'

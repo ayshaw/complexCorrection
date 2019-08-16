@@ -1,0 +1,6 @@
+compute-a-17-90.o2.rc.hms.harvard.edu
+Not a conda environment: /home/as974/jupytervenv/bin/activate
+Traceback (most recent call last):
+  File "multithreading.py", line 2, in <module>
+    import tensorflow as tf
+ImportError: No module named tensorflow

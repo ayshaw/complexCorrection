@@ -1,0 +1,26 @@
+compute-a-16-87.o2.rc.hms.harvard.edu
+removed gaps!	 filt_gaps: 0.0015716552734375 seconds
+num cpus: 4
+num_jobs:  4
+[14 10  9  5  9 15  5 16 14  7 10 16 19  6  5 11  1  0 16  9  6  0 19 16
+  1  0 18  0  6  0 16  7 11  3  0 11 15 19 17 19 16  9 16  6 19 14  1  6
+  5 17  7 19  7  7 19 14 10  7 20 20 20]
+------------------------new process------------
+start,end:0,204
+processes initialized!
+process appended!
+------------------------new process------------
+start,end:204,408
+processes initialized!
+process appended!
+------------------------new process------------
+start,end:408,612
+processes initialized!
+process appended!
+------------------------new process------------
+start,end:612,816
+processes initialized!
+process appended!
+process started! <Process(Process-1, started)> True
+process started! <Process(Process-2, started)> True
+process started! <Process(Process-3, started)> True

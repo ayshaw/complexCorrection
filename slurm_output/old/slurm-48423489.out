@@ -1,0 +1,11 @@
+compute-a-16-52.o2.rc.hms.harvard.edu
+removed gaps!	 filt_gaps: 0.0008070468902587891 seconds
+num cpus: 4FAZA.fas
+Traceback (most recent call last):
+  File "multithreading.py", line 123, in <module>
+    msa = mk_msa(seqs)
+  File "multithreading.py", line 113, in mk_msa
+    msa_weights_fast = get_eff_lowmem(msa)
+  File "multithreading.py", line 60, in get_eff_lowmem
+    start = np.arange(0,nrow,int(nrow/num_cpus))
+TypeError: ufunc 'true_divide' not supported for the input types, and the inputs could not be safely coerced to any supported types according to the casting rule ''safe''

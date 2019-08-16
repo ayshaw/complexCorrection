@@ -1,0 +1,15 @@
+compute-a-16-36.o2.rc.hms.harvard.edu
+removed gaps!	 filt_gaps: 0.0009050369262695312 seconds
+num cpus: 4
+num_jobs:  613
+start,end:0,204
+processes initialized!
+processes appended?
+Traceback (most recent call last):
+  File "multithreading.py", line 124, in <module>
+    msa = mk_msa(seqs)
+  File "multithreading.py", line 114, in mk_msa
+    msa_weights_fast = get_eff_lowmem(msa)
+  File "multithreading.py", line 73, in get_eff_lowmem
+    print('process {} started!'.format(p.pid()))
+TypeError: 'int' object is not callable

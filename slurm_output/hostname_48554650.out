@@ -1,0 +1,11 @@
+['multithreading.py', '4FAZA.fas', '4']
+removed gaps!	 filt_gaps: 0.0007510185241699219 seconds
+num cpus: 4
+num_jobs:  4
+[816 612 408 204]
+processes initialized!
+processes initialized!
+processes initialized!
+processes initialized!
+output appended!
+fast pdist implementation: 0.06380677223205566 seconds

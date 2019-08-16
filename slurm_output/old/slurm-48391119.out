@@ -1,0 +1,3 @@
+compute-e-16-237.o2.rc.hms.harvard.edu
+removed gaps!	 filt_gaps: 3.7648346424102783 seconds
+slurmstepd: error: *** JOB 48391119 ON compute-e-16-237 CANCELLED AT 2019-08-14T01:19:37 DUE TO TIME LIMIT ***

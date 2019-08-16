@@ -1,0 +1,45 @@
+compute-e-16-233.o2.rc.hms.harvard.edu
+removed gaps!	 filt_gaps: 0.0006210803985595703 seconds
+num cpus: 4
+[612 408 204   0]
+num_jobs:  4
+[816 612 408 204]
+------------------------new process------------
+start,end:612,817
+processes initialized!
+process appended!
+process started! <Process(Process-1, started)> True
+------------------------new process------------
+start,end:408,612
+processes initialized!
+process appended!
+process started! <Process(Process-2, started)> True
+------------------------new process------------
+start,end:204,408
+processes initialized!
+process appended!
+process started! <Process(Process-3, started)> True
+------------------------new process------------
+start,end:0,204
+processes initialized!
+process appended!
+process started! <Process(Process-4, started)> True
+output appended!
+done!,output dimensions: 4 
+ final output length 204
+fast pdist implementation: 0.07453227043151855 seconds
+starting pdist!
+[[1. 0. 0. ... 0. 0. 0.]
+ [0. 1. 0. ... 0. 0. 0.]
+ [0. 0. 1. ... 0. 0. 0.]
+ ...
+ [0. 0. 0. ... 1. 0. 1.]
+ [0. 0. 0. ... 0. 1. 1.]
+ [0. 0. 0. ... 1. 1. 1.]]
+slow pdist implementation: 0.03148603439331055 seconds
+Traceback (most recent call last):
+  File "multithreading.py", line 134, in <module>
+    msa = mk_msa(seqs)
+  File "multithreading.py", line 130, in mk_msa
+    print('difference between pdist:{}'.format(sum(msa_weights_fast-msa_weights)))
+ValueError: operands could not be broadcast together with shapes (4,) (817,) 

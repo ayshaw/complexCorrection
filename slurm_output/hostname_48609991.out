@@ -1,0 +1,4 @@
+  File "fast_weights_arnaud.py", line 292
+    print('Datahelper: ',time.time()-start,' seconds')_
+                                                      ^
+SyntaxError: invalid syntax

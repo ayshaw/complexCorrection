@@ -1,0 +1,99 @@
+compute-a-17-58.o2.rc.hms.harvard.edu
+removed gaps!	 filt_gaps: 0.0007750988006591797 seconds
+num cpus: 16
+[765 714 663 612 561 510 459 408 357 306 255 204 153 102  51   0]
+num_jobs:  16
+[816 765 714 663 612 561 510 459 408 357 306 255 204 153 102  51]
+------------------------new process------------
+start,end:765,817
+processes initialized!
+process appended!
+process started! <Process(Process-1, started)> True
+------------------------new process------------
+start,end:714,765
+processes initialized!
+process appended!
+process started! <Process(Process-2, started)> True
+------------------------new process------------
+start,end:663,714
+processes initialized!
+process appended!
+process started! <Process(Process-3, started)> True
+------------------------new process------------
+start,end:612,663
+processes initialized!
+process appended!
+process started! <Process(Process-4, started)> True
+------------------------new process------------
+start,end:561,612
+processes initialized!
+process appended!
+process started! <Process(Process-5, started)> True
+------------------------new process------------
+start,end:510,561
+processes initialized!
+process appended!
+process started! <Process(Process-6, started)> True
+------------------------new process------------
+start,end:459,510
+processes initialized!
+process appended!
+process started! <Process(Process-7, started)> True
+------------------------new process------------
+start,end:408,459
+processes initialized!
+process appended!
+process started! <Process(Process-8, started)> True
+------------------------new process------------
+start,end:357,408
+processes initialized!
+process appended!
+process started! <Process(Process-9, started)> True
+------------------------new process------------
+start,end:306,357
+processes initialized!
+process appended!
+process started! <Process(Process-10, started)> True
+------------------------new process------------
+start,end:255,306
+processes initialized!
+process appended!
+process started! <Process(Process-11, started)> True
+------------------------new process------------
+start,end:204,255
+processes initialized!
+process appended!
+process started! <Process(Process-12, started)> True
+------------------------new process------------
+start,end:153,204
+processes initialized!
+process appended!
+process started! <Process(Process-13, started)> True
+------------------------new process------------
+start,end:102,153
+processes initialized!
+process appended!
+process started! <Process(Process-14, started)> True
+------------------------new process------------
+start,end:51,102
+processes initialized!
+process appended!
+process started! <Process(Process-15, started)> True
+------------------------new process------------
+start,end:0,51
+processes initialized!
+process appended!
+process started! <Process(Process-16, started)> True
+output appended!
+done!,output dimensions: 817
+fast pdist implementation: 0.05998802185058594 seconds
+starting pdist!
+[[1. 0. 0. ... 0. 0. 0.]
+ [0. 1. 0. ... 0. 0. 0.]
+ [0. 0. 1. ... 0. 0. 0.]
+ ...
+ [0. 0. 0. ... 1. 0. 1.]
+ [0. 0. 0. ... 0. 1. 1.]
+ [0. 0. 0. ... 1. 1. 1.]]
+slow pdist implementation: 0.04816317558288574 seconds
+difference between pdist:-1.2323475573339238e-14

@@ -1,0 +1,39 @@
+compute-e-16-233.o2.rc.hms.harvard.edu
+removed gaps!	 filt_gaps: 0.0006229877471923828 seconds
+num cpus: 4
+[612 408 204   0]
+num_jobs:  4
+[816 612 408 204]
+------------------------new process------------
+start,end:612,817
+processes initialized!
+process appended!
+process started! <Process(Process-1, started)> True
+------------------------new process------------
+start,end:408,612
+processes initialized!
+process appended!
+process started! <Process(Process-2, started)> True
+------------------------new process------------
+start,end:204,408
+processes initialized!
+process appended!
+process started! <Process(Process-3, started)> True
+------------------------new process------------
+start,end:0,204
+processes initialized!
+process appended!
+process started! <Process(Process-4, started)> True
+output appended!
+done!,output dimensions: 817
+fast pdist implementation: 0.08087706565856934 seconds
+starting pdist!
+[[1. 0. 0. ... 0. 0. 0.]
+ [0. 1. 0. ... 0. 0. 0.]
+ [0. 0. 1. ... 0. 0. 0.]
+ ...
+ [0. 0. 0. ... 1. 0. 1.]
+ [0. 0. 0. ... 0. 1. 1.]
+ [0. 0. 0. ... 1. 1. 1.]]
+slow pdist implementation: 0.0368196964263916 seconds
+difference between pdist:-6.772360450213455e-15

@@ -1,0 +1,5 @@
+compute-a-16-65.o2.rc.hms.harvard.edu
+  File "multithreading.py", line 50
+    if queue!=none
+                 ^
+SyntaxError: invalid syntax

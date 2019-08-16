@@ -1,0 +1,10 @@
+compute-a-16-50.o2.rc.hms.harvard.edu
+removed gaps!	 filt_gaps: 0.0006840229034423828 seconds
+Traceback (most recent call last):
+  File "multithreading.py", line 123, in <module>
+    msa = mk_msa(seqs)
+  File "multithreading.py", line 113, in mk_msa
+    msa_weights_fast = get_eff_lowmem(msa)
+  File "multithreading.py", line 58, in get_eff_lowmem
+    num_cpus = int(sys.argv[1])
+ValueError: invalid literal for int() with base 10: '4FAZA.fas'

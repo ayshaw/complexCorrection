@@ -1,0 +1,10 @@
+compute-a-16-100.o2.rc.hms.harvard.edu
+Not a conda environment: /home/as974/jupytervenv/bin/activate
+Traceback (most recent call last):
+  File "multithreading.py", line 99, in <module>
+    msa = mk_msa(seqs)
+  File "multithreading.py", line 89, in mk_msa
+    msa_weights_fast = get_eff_lowmem(msa)
+  File "multithreading.py", line 54, in get_eff_lowmem
+    pool=mp.Pool(processes=4)
+NameError: global name 'mp' is not defined

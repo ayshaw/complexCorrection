@@ -1,0 +1,4 @@
+  File "multithreading.py", line 54
+    weights_file = open('fastweights_'+str(start)+'-',str(end)+'.txt','w+')
+                                                                          ^
+IndentationError: unindent does not match any outer indentation level

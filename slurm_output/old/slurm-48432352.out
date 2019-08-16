@@ -1,0 +1,13 @@
+compute-e-16-237.o2.rc.hms.harvard.edu
+removed gaps!	 filt_gaps: 0.0009627342224121094 seconds
+num cpus: 4
+[612 408 204   0]
+num_jobs:  4
+Traceback (most recent call last):
+  File "multithreading.py", line 132, in <module>
+    msa = mk_msa(seqs)
+  File "multithreading.py", line 122, in mk_msa
+    msa_weights_fast = get_eff_lowmem(msa)
+  File "multithreading.py", line 66, in get_eff_lowmem
+    end = start + int(nrow/num_cpus)[::-1]
+TypeError: 'int' object is not subscriptable

@@ -1,0 +1,29 @@
+compute-a-16-69.o2.rc.hms.harvard.edu
+removed gaps!	 filt_gaps: 0.0007727146148681641 seconds
+start,end:0,32
+start,end:32,64
+start,end:64,96
+start,end:96,128
+start,end:128,160
+start,end:160,192
+start,end:192,224
+start,end:224,256
+start,end:256,288
+start,end:288,320
+start,end:320,352
+start,end:352,384
+start,end:384,416
+start,end:416,448
+start,end:448,480
+start,end:480,512
+start,end:512,544
+start,end:544,576
+start,end:576,608
+start,end:608,640
+start,end:640,672
+start,end:672,704
+start,end:704,736
+start,end:736,768
+start,end:768,800
+start,end:800,832
+slurmstepd: error: *** JOB 48421056 ON compute-a-16-69 CANCELLED AT 2019-08-14T12:48:33 ***

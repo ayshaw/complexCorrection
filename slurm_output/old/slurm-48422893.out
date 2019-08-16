@@ -1,0 +1,69 @@
+compute-a-16-50.o2.rc.hms.harvard.edu
+removed gaps!	 filt_gaps: 0.0007550716400146484 seconds
+start,end:0,25
+processes initialized!
+start,end:25,50
+processes initialized!
+start,end:50,75
+processes initialized!
+start,end:75,100
+processes initialized!
+start,end:100,125
+processes initialized!
+start,end:125,150
+processes initialized!
+start,end:150,175
+processes initialized!
+start,end:175,200
+processes initialized!
+start,end:200,225
+processes initialized!
+start,end:225,250
+processes initialized!
+start,end:250,275
+processes initialized!
+start,end:275,300
+processes initialized!
+start,end:300,325
+processes initialized!
+start,end:325,350
+processes initialized!
+start,end:350,375
+processes initialized!
+start,end:375,400
+processes initialized!
+start,end:400,425
+processes initialized!
+start,end:425,450
+processes initialized!
+start,end:450,475
+processes initialized!
+start,end:475,500
+processes initialized!
+start,end:500,525
+processes initialized!
+start,end:525,550
+processes initialized!
+start,end:550,575
+processes initialized!
+start,end:575,600
+processes initialized!
+start,end:600,625
+processes initialized!
+start,end:625,650
+processes initialized!
+start,end:650,675
+processes initialized!
+start,end:675,700
+processes initialized!
+start,end:700,725
+processes initialized!
+start,end:725,750
+processes initialized!
+start,end:750,775
+processes initialized!
+start,end:775,800
+processes initialized!
+start,end:800,817
+processes initialized!
+slurmstepd: error: *** JOB 48422893 ON compute-a-16-50 CANCELLED AT 2019-08-14T13:37:24 ***
