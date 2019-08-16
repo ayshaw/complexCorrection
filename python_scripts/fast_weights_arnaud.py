@@ -1,4 +1,5 @@
 import time
+from collections import *
 import numpy as np
 
 class DataHelper:
@@ -95,11 +96,11 @@ class DataHelper:
 
     def configure_datasets(self):
 
-        if opt.test_algo:
-            self.alignment_file = self.working_dir + "4FAZA.a2m"
+        if self.dataset == "small":
+            self.alignment_file = self.working_dir + "/datasets/4FAZA.fas"
 
-        elif self.dataset == "short":
-            self.alignment_file = self.working_dir + "4FAZA.a2m"
+        elif self.dataset == "large":
+            self.alignment_file = self.working_dir + "/benchmark/allpdb0777/concatenation.a2m"
         #             self.theta = 0.2
 
         elif self.dataset == "PABP_YEAST":
@@ -175,16 +176,16 @@ class DataHelper:
 
         # We also expect the focus sequence to be formatted as:
         # >[NAME]/[start]-[end]
-        focus_loc = self.focus_seq_name.split("/")[-1]
-        start, stop = focus_loc.split("-")
-        self.focus_start_loc = int(start)
-        self.focus_stop_loc = int(stop)
-        self.uniprot_focus_cols_list \
-            = [idx_col + int(start) for idx_col in self.focus_cols]
-        self.uniprot_focus_col_to_wt_aa_dict \
-            = {idx_col + int(start): self.focus_seq[idx_col] for idx_col in self.focus_cols}
-        self.uniprot_focus_col_to_focus_idx \
-            = {idx_col + int(start): idx_col for idx_col in self.focus_cols}
+        #focus_loc = self.focus_seq_name.split("/")[-1]
+        #start, stop = focus_loc.split("-")
+        #self.focus_start_loc = int(start)
+        #self.focus_stop_loc = int(stop)
+        #self.uniprot_focus_cols_list \
+        #    = [idx_col + int(start) for idx_col in self.focus_cols]
+        #self.uniprot_focus_col_to_wt_aa_dict \
+        #    = {idx_col + int(start): self.focus_seq[idx_col] for idx_col in self.focus_cols}
+        #self.uniprot_focus_col_to_focus_idx \
+        #    = {idx_col + int(start): idx_col for idx_col in self.focus_cols}
 
     def gen_full_alignment(self):
 
@@ -238,14 +239,15 @@ class DataHelper:
                 #weights.append(1.0 / (((torch.div(
                 #   torch.mm(xtfs_t[i * seq_batch:(i + 1) * seq_batch], xtfs_t.transpose(0, 1)),
                 #   xtfs_t[i * seq_batch:(i + 1) * seq_batch].sum(1).unsqueeze(1))) > (1 - self.theta)).sum(1).float()))
-                weights.append(1.0/ (((np.div(
-                    np.dot(xtfs_t[i *seq_batch: (i+1) * seq_batch], xtfs_t.transpose(0, 1)),
+                weights.append(1.0 / (((np.divide(
+                    np.dot(xtfs_t[i *seq_batch: (i+1) * seq_batch], xtfs_t.transpose()),
                     np.expand_dims(xtfs_t[i * seq_batch:(i+1) * seq_batch].sum(1),1))) > (1-self.theta)).sum(1).astype(float)))
 
             #weights.append(1.0 / (((torch.div(torch.mm(xtfs_t[-rest:], xtfs_t.transpose(0, 1)),
             #                                  xtfs_t[-rest:].sum(1).unsqueeze(1))) > (1 - self.theta)).sum(1).float()))
-            weights.append(1.0 / (((np.div(np.dot(xtfs_t[-rest:], xtfs_t.transpose(0, 1)),
-                                           np.expand_dims(xtfs_t[-rest:].sum(1))))> (1-self.theta)).sum(1).astype(float)))
+            print(xtfs_t[-rest:].shape, xtfs_t.transpose(0, 1).shape, xtfs_t.shape,xtfs_t.transpose().shape)
+            weights.append(1.0 / (((np.divide(np.dot(xtfs_t[-rest:], xtfs_t.transpose()),
+                                           np.expand_dims(xtfs_t[-rest:].sum(1),1)))> (1-self.theta)).sum(1).astype(float)))
             weights_tensor = np.concatenate(weights)
             self.weights = weights_tensor
             #         self.weights = weights_tensor.cpu().numpy()
@@ -288,5 +290,5 @@ class DataHelper:
     #         print ("Neff =",str(self.Neff))
     #         print ("Data Shape =",self.x_train.shape)
 start = time.time()
-DataHelper("short",0.2)
+DataHelper("large",0.2,working_dir="/home/as974/ada/multimerCorrection")
 print('Datahelper: ',time.time()-start,' seconds')

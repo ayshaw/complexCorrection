@@ -1,8 +1,0 @@
-Traceback (most recent call last):
-  File "fast_weights_arnaud.py", line 291, in <module>
-    DataHelper("short",0.2)
-  File "fast_weights_arnaud.py", line 74, in __init__
-    self.configure_datasets()
-  File "fast_weights_arnaud.py", line 98, in configure_datasets
-    if opt.test_algo:
-NameError: name 'opt' is not defined
