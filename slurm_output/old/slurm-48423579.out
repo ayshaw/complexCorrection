@@ -1,0 +1,23 @@
+compute-a-16-50.o2.rc.hms.harvard.edu
+removed gaps!	 filt_gaps: 0.0009639263153076172 seconds
+num cpus: 4
+start,end:0,204
+processes initialized!
+processes appended?
+processes started!
+start,end:204,408
+processes initialized!
+processes appended?
+processes started!
+start,end:408,612
+processes initialized!
+processes appended?
+processes started!
+start,end:612,816
+processes initialized!
+processes appended?
+processes started!
+start,end:816,817
+processes initialized!
+processes appended?
+slurmstepd: error: *** JOB 48423579 ON compute-a-16-50 CANCELLED AT 2019-08-14T13:59:43 DUE TO TIME LIMIT ***

@@ -1,0 +1,13 @@
+compute-a-16-102.o2.rc.hms.harvard.edu
+removed gaps!	 filt_gaps: 0.0007083415985107422 seconds
+fast pdist implementation: 0.18210673332214355 seconds
+starting pdist!
+[[1. 0. 0. ... 0. 0. 0.]
+ [0. 1. 0. ... 0. 0. 0.]
+ [0. 0. 1. ... 0. 0. 0.]
+ ...
+ [0. 0. 0. ... 1. 0. 1.]
+ [0. 0. 0. ... 0. 1. 1.]
+ [0. 0. 0. ... 1. 1. 1.]]
+slow pdist implementation: 0.053589820861816406 seconds
+difference between pdist:0.0

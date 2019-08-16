@@ -1,0 +1,5 @@
+compute-a-16-163.o2.rc.hms.harvard.edu
+  File "multithreading.py", line 54
+    if end_ind==msa.shape[0]:
+                            ^
+SyntaxError: invalid syntax

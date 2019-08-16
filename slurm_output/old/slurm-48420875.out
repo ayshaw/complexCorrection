@@ -1,0 +1,263 @@
+compute-a-16-45.o2.rc.hms.harvard.edu
+removed gaps!	 filt_gaps: 0.0009913444519042969 seconds
+start,end:0,32
+start,end:32,64
+start,end:64,96
+Process Process-1:
+Traceback (most recent call last):
+  File "/n/app/python/3.6.0/lib/python3.6/multiprocessing/process.py", line 249, in _bootstrap
+    self.run()
+  File "/n/app/python/3.6.0/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "multithreading.py", line 50, in f
+    if queue!=none:
+NameError: name 'none' is not defined
+start,end:96,128
+Process Process-2:
+Traceback (most recent call last):
+  File "/n/app/python/3.6.0/lib/python3.6/multiprocessing/process.py", line 249, in _bootstrap
+    self.run()
+  File "/n/app/python/3.6.0/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "multithreading.py", line 50, in f
+    if queue!=none:
+NameError: name 'none' is not defined
+start,end:128,160
+Process Process-3:
+Traceback (most recent call last):
+  File "/n/app/python/3.6.0/lib/python3.6/multiprocessing/process.py", line 249, in _bootstrap
+    self.run()
+  File "/n/app/python/3.6.0/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "multithreading.py", line 50, in f
+    if queue!=none:
+NameError: name 'none' is not defined
+Process Process-4:
+Traceback (most recent call last):
+  File "/n/app/python/3.6.0/lib/python3.6/multiprocessing/process.py", line 249, in _bootstrap
+    self.run()
+  File "/n/app/python/3.6.0/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "multithreading.py", line 50, in f
+    if queue!=none:
+NameError: name 'none' is not defined
+start,end:160,192
+Process Process-5:
+Traceback (most recent call last):
+  File "/n/app/python/3.6.0/lib/python3.6/multiprocessing/process.py", line 249, in _bootstrap
+    self.run()
+  File "/n/app/python/3.6.0/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "multithreading.py", line 50, in f
+    if queue!=none:
+NameError: name 'none' is not defined
+start,end:192,224
+start,end:224,256
+start,end:256,288
+Process Process-6:
+Traceback (most recent call last):
+  File "/n/app/python/3.6.0/lib/python3.6/multiprocessing/process.py", line 249, in _bootstrap
+    self.run()
+  File "/n/app/python/3.6.0/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "multithreading.py", line 50, in f
+    if queue!=none:
+NameError: name 'none' is not defined
+start,end:288,320
+Process Process-7:
+Traceback (most recent call last):
+  File "/n/app/python/3.6.0/lib/python3.6/multiprocessing/process.py", line 249, in _bootstrap
+    self.run()
+  File "/n/app/python/3.6.0/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "multithreading.py", line 50, in f
+    if queue!=none:
+NameError: name 'none' is not defined
+start,end:320,352
+Process Process-8:
+Traceback (most recent call last):
+  File "/n/app/python/3.6.0/lib/python3.6/multiprocessing/process.py", line 249, in _bootstrap
+    self.run()
+  File "/n/app/python/3.6.0/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "multithreading.py", line 50, in f
+    if queue!=none:
+NameError: name 'none' is not defined
+start,end:352,384
+Process Process-10:
+Traceback (most recent call last):
+  File "/n/app/python/3.6.0/lib/python3.6/multiprocessing/process.py", line 249, in _bootstrap
+    self.run()
+  File "/n/app/python/3.6.0/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "multithreading.py", line 50, in f
+    if queue!=none:
+NameError: name 'none' is not defined
+start,end:384,416
+start,end:416,448
+start,end:448,480
+Process Process-12:
+Traceback (most recent call last):
+  File "/n/app/python/3.6.0/lib/python3.6/multiprocessing/process.py", line 249, in _bootstrap
+    self.run()
+  File "/n/app/python/3.6.0/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "multithreading.py", line 50, in f
+    if queue!=none:
+NameError: name 'none' is not defined
+start,end:480,512
+Process Process-9:
+Traceback (most recent call last):
+  File "/n/app/python/3.6.0/lib/python3.6/multiprocessing/process.py", line 249, in _bootstrap
+    self.run()
+  File "/n/app/python/3.6.0/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "multithreading.py", line 50, in f
+    if queue!=none:
+NameError: name 'none' is not defined
+Process Process-11:
+Traceback (most recent call last):
+  File "/n/app/python/3.6.0/lib/python3.6/multiprocessing/process.py", line 249, in _bootstrap
+    self.run()
+  File "/n/app/python/3.6.0/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "multithreading.py", line 50, in f
+    if queue!=none:
+NameError: name 'none' is not defined
+Process Process-14:
+Traceback (most recent call last):
+  File "/n/app/python/3.6.0/lib/python3.6/multiprocessing/process.py", line 249, in _bootstrap
+    self.run()
+  File "/n/app/python/3.6.0/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "multithreading.py", line 50, in f
+    if queue!=none:
+NameError: name 'none' is not defined
+start,end:512,544
+Process Process-13:
+Traceback (most recent call last):
+  File "/n/app/python/3.6.0/lib/python3.6/multiprocessing/process.py", line 249, in _bootstrap
+    self.run()
+  File "/n/app/python/3.6.0/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "multithreading.py", line 50, in f
+    if queue!=none:
+NameError: name 'none' is not defined
+Process Process-16:
+Traceback (most recent call last):
+  File "/n/app/python/3.6.0/lib/python3.6/multiprocessing/process.py", line 249, in _bootstrap
+    self.run()
+  File "/n/app/python/3.6.0/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "multithreading.py", line 50, in f
+    if queue!=none:
+NameError: name 'none' is not defined
+Process Process-15:
+Traceback (most recent call last):
+  File "/n/app/python/3.6.0/lib/python3.6/multiprocessing/process.py", line 249, in _bootstrap
+    self.run()
+  File "/n/app/python/3.6.0/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "multithreading.py", line 50, in f
+    if queue!=none:
+NameError: name 'none' is not defined
+start,end:544,576
+start,end:576,608
+start,end:608,640
+Process Process-17:
+Traceback (most recent call last):
+  File "/n/app/python/3.6.0/lib/python3.6/multiprocessing/process.py", line 249, in _bootstrap
+    self.run()
+  File "/n/app/python/3.6.0/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "multithreading.py", line 50, in f
+    if queue!=none:
+NameError: name 'none' is not defined
+Process Process-18:
+Traceback (most recent call last):
+  File "/n/app/python/3.6.0/lib/python3.6/multiprocessing/process.py", line 249, in _bootstrap
+    self.run()
+  File "/n/app/python/3.6.0/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "multithreading.py", line 50, in f
+    if queue!=none:
+NameError: name 'none' is not defined
+start,end:640,672
+start,end:672,704
+start,end:704,736
+start,end:736,768
+Process Process-19:
+Traceback (most recent call last):
+  File "/n/app/python/3.6.0/lib/python3.6/multiprocessing/process.py", line 249, in _bootstrap
+    self.run()
+  File "/n/app/python/3.6.0/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "multithreading.py", line 50, in f
+    if queue!=none:
+NameError: name 'none' is not defined
+start,end:768,800
+Process Process-20:
+Traceback (most recent call last):
+  File "/n/app/python/3.6.0/lib/python3.6/multiprocessing/process.py", line 249, in _bootstrap
+    self.run()
+  File "/n/app/python/3.6.0/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "multithreading.py", line 50, in f
+    if queue!=none:
+NameError: name 'none' is not defined
+start,end:800,832
+Process Process-21:
+Traceback (most recent call last):
+  File "/n/app/python/3.6.0/lib/python3.6/multiprocessing/process.py", line 249, in _bootstrap
+    self.run()
+  File "/n/app/python/3.6.0/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "multithreading.py", line 50, in f
+    if queue!=none:
+NameError: name 'none' is not defined
+Process Process-24:
+Traceback (most recent call last):
+  File "/n/app/python/3.6.0/lib/python3.6/multiprocessing/process.py", line 249, in _bootstrap
+    self.run()
+  File "/n/app/python/3.6.0/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "multithreading.py", line 50, in f
+    if queue!=none:
+NameError: name 'none' is not defined
+Process Process-23:
+Traceback (most recent call last):
+  File "/n/app/python/3.6.0/lib/python3.6/multiprocessing/process.py", line 249, in _bootstrap
+    self.run()
+  File "/n/app/python/3.6.0/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "multithreading.py", line 50, in f
+    if queue!=none:
+NameError: name 'none' is not defined
+Process Process-26:
+Traceback (most recent call last):
+  File "/n/app/python/3.6.0/lib/python3.6/multiprocessing/process.py", line 249, in _bootstrap
+    self.run()
+  File "/n/app/python/3.6.0/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "multithreading.py", line 50, in f
+    if queue!=none:
+NameError: name 'none' is not defined
+Process Process-22:
+Traceback (most recent call last):
+  File "/n/app/python/3.6.0/lib/python3.6/multiprocessing/process.py", line 249, in _bootstrap
+    self.run()
+  File "/n/app/python/3.6.0/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "multithreading.py", line 50, in f
+    if queue!=none:
+NameError: name 'none' is not defined
+Process Process-25:
+Traceback (most recent call last):
+  File "/n/app/python/3.6.0/lib/python3.6/multiprocessing/process.py", line 249, in _bootstrap
+    self.run()
+  File "/n/app/python/3.6.0/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "multithreading.py", line 50, in f
+    if queue!=none:
+NameError: name 'none' is not defined
+slurmstepd: error: *** JOB 48420875 ON compute-a-16-45 CANCELLED AT 2019-08-14T12:45:35 DUE TO TIME LIMIT ***

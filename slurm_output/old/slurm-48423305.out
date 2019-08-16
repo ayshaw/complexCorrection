@@ -1,0 +1,135 @@
+compute-a-16-52.o2.rc.hms.harvard.edu
+removed gaps!	 filt_gaps: 0.0007488727569580078 seconds
+num cpus: 32
+start,end:0,25
+processes initialized!
+processes appended?
+processes started!
+start,end:25,50
+processes initialized!
+processes appended?
+processes started!
+start,end:50,75
+processes initialized!
+processes appended?
+processes started!
+start,end:75,100
+processes initialized!
+processes appended?
+processes started!
+start,end:100,125
+processes initialized!
+processes appended?
+processes started!
+start,end:125,150
+processes initialized!
+processes appended?
+processes started!
+start,end:150,175
+processes initialized!
+processes appended?
+processes started!
+start,end:175,200
+processes initialized!
+processes appended?
+processes started!
+start,end:200,225
+processes initialized!
+processes appended?
+processes started!
+start,end:225,250
+processes initialized!
+processes appended?
+processes started!
+start,end:250,275
+processes initialized!
+processes appended?
+processes started!
+start,end:275,300
+processes initialized!
+processes appended?
+processes started!
+start,end:300,325
+processes initialized!
+processes appended?
+processes started!
+start,end:325,350
+processes initialized!
+processes appended?
+processes started!
+start,end:350,375
+processes initialized!
+processes appended?
+processes started!
+start,end:375,400
+processes initialized!
+processes appended?
+processes started!
+start,end:400,425
+processes initialized!
+processes appended?
+processes started!
+start,end:425,450
+processes initialized!
+processes appended?
+processes started!
+start,end:450,475
+processes initialized!
+processes appended?
+processes started!
+start,end:475,500
+processes initialized!
+processes appended?
+processes started!
+start,end:500,525
+processes initialized!
+processes appended?
+processes started!
+start,end:525,550
+processes initialized!
+processes appended?
+processes started!
+start,end:550,575
+processes initialized!
+processes appended?
+processes started!
+start,end:575,600
+processes initialized!
+processes appended?
+processes started!
+start,end:600,625
+processes initialized!
+processes appended?
+processes started!
+start,end:625,650
+processes initialized!
+processes appended?
+processes started!
+start,end:650,675
+processes initialized!
+processes appended?
+processes started!
+start,end:675,700
+processes initialized!
+processes appended?
+processes started!
+start,end:700,725
+processes initialized!
+processes appended?
+processes started!
+start,end:725,750
+processes initialized!
+processes appended?
+processes started!
+start,end:750,775
+processes initialized!
+processes appended?
+processes started!
+start,end:775,800
+processes initialized!
+processes appended?
+processes started!
+start,end:800,817
+processes initialized!
+processes appended?
+slurmstepd: error: *** JOB 48423305 ON compute-a-16-52 CANCELLED AT 2019-08-14T13:42:29 ***

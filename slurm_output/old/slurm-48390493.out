@@ -1,0 +1,4 @@
+compute-a-16-165.o2.rc.hms.harvard.edu
+removed gaps!	 filt_gaps: 4.345494985580444 seconds
+slurmstepd: error: *** JOB 48390493 ON compute-a-16-165 CANCELLED AT 2019-08-14T00:38:00 DUE TO TIME LIMIT ***
+slurmstepd: error: Detected 2786 oom-kill event(s) in step 48390493.batch cgroup. Some of your processes may have been killed by the cgroup out-of-memory handler.

@@ -1,0 +1,19 @@
+compute-e-16-229.o2.rc.hms.harvard.edu
+Traceback (most recent call last):
+  File "/n/app/python/3.6.0/lib/python3.6/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/n/app/python/3.6.0/lib/python3.6/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/n/app/python/3.6.0/lib/python3.6/cProfile.py", line 160, in <module>
+    main()
+  File "/n/app/python/3.6.0/lib/python3.6/cProfile.py", line 153, in main
+    runctx(code, globs, None, options.outfile, options.sort)
+  File "/n/app/python/3.6.0/lib/python3.6/cProfile.py", line 20, in runctx
+    filename, sort)
+  File "/n/app/python/3.6.0/lib/python3.6/profile.py", line 64, in runctx
+    prof.runctx(statement, globals, locals)
+  File "/n/app/python/3.6.0/lib/python3.6/cProfile.py", line 100, in runctx
+    exec(cmd, globals, locals)
+  File "multithreading.py", line 133, in <module>
+    names, seqs = parse_fasta(sys.argv[offset+1])
+IndexError: list index out of range

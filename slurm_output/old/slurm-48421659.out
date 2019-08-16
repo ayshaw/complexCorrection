@@ -1,0 +1,36 @@
+compute-a-16-41.o2.rc.hms.harvard.edu
+removed gaps!	 filt_gaps: 0.0013132095336914062 seconds
+start,end:0,25
+start,end:25,50
+start,end:50,75
+start,end:75,100
+start,end:100,125
+start,end:125,150
+start,end:150,175
+start,end:175,200
+start,end:200,225
+start,end:225,250
+start,end:250,275
+start,end:275,300
+start,end:300,325
+start,end:325,350
+start,end:350,375
+start,end:375,400
+start,end:400,425
+start,end:425,450
+start,end:450,475
+start,end:475,500
+start,end:500,525
+start,end:525,550
+start,end:550,575
+start,end:575,600
+start,end:600,625
+start,end:625,650
+start,end:650,675
+start,end:675,700
+start,end:700,725
+start,end:725,750
+start,end:750,775
+start,end:775,800
+start,end:800,817
+slurmstepd: error: *** JOB 48421659 ON compute-a-16-41 CANCELLED AT 2019-08-14T13:07:46 DUE TO TIME LIMIT ***

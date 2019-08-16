@@ -1,0 +1,25 @@
+compute-a-16-49.o2.rc.hms.harvard.edu
+removed gaps!	 filt_gaps: 0.0009920597076416016 seconds
+num cpus: 4
+num_jobs:  4
+------------------------new process------------
+start,end:0,204
+processes initialized!
+process appended!
+------------------------new process------------
+start,end:204,408
+processes initialized!
+process appended!
+------------------------new process------------
+start,end:408,612
+processes initialized!
+process appended!
+------------------------new process------------
+start,end:612,816
+processes initialized!
+process appended!
+4
+process started! <Process(Process-1, started)> True
+process started! <Process(Process-2, started)> True
+process started! <Process(Process-3, started)> True
+slurmstepd: error: *** JOB 48429835 ON compute-a-16-49 CANCELLED AT 2019-08-14T15:27:46 ***

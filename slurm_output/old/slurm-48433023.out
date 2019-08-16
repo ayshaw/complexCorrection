@@ -1,0 +1,5 @@
+compute-e-16-237.o2.rc.hms.harvard.edu
+  File "multithreading.py", line 55
+    queue.put(output)
+        ^
+SyntaxError: invalid syntax

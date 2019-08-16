@@ -1,0 +1,35 @@
+compute-e-16-233.o2.rc.hms.harvard.edu
+removed gaps!	 filt_gaps: 0.0009665489196777344 seconds
+num cpus: 4
+[612 408 204   0]
+num_jobs:  4
+[816 612 408 204]
+------------------------new process------------
+start,end:612,817
+processes initialized!
+process appended!
+process started! <Process(Process-1, started)> True
+------------------------new process------------
+start,end:408,612
+processes initialized!
+process appended!
+process started! <Process(Process-2, started)> True
+------------------------new process------------
+start,end:204,408
+processes initialized!
+process appended!
+process started! <Process(Process-3, started)> True
+------------------------new process------------
+start,end:0,204
+processes initialized!
+process appended!
+process started! <Process(Process-4, started)> True
+output appended!
+Traceback (most recent call last):
+  File "multithreading.py", line 134, in <module>
+    msa = mk_msa(seqs)
+  File "multithreading.py", line 124, in mk_msa
+    msa_weights_fast = get_eff_lowmem(msa)
+  File "multithreading.py", line 89, in get_eff_lowmem
+    print('done!,output dimensions:',len(output),'\n','final output length',len(output[3]))
+TypeError: object of type 'numpy.float64' has no len()

@@ -1,0 +1,12 @@
+compute-a-16-163.o2.rc.hms.harvard.edu
+removed gaps!	 filt_gaps: 0.0006508827209472656 seconds
+num cpus: 1
+num_jobs:  0
+Traceback (most recent call last):
+  File "multithreading.py", line 128, in <module>
+    msa = mk_msa(seqs)
+  File "multithreading.py", line 118, in mk_msa
+    msa_weights_fast = get_eff_lowmem(msa)
+  File "multithreading.py", line 64, in get_eff_lowmem
+    end[-1] = nrow
+IndexError: index -1 is out of bounds for axis 0 with size 0
