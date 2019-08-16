@@ -1,4 +1,6 @@
+import time
 import numpy as np
+
 class DataHelper:
     def __init__(self,
                  dataset,
@@ -94,10 +96,10 @@ class DataHelper:
     def configure_datasets(self):
 
         if opt.test_algo:
-            self.alignment_file = self.working_dir + "/datasets/DLG4.a2m"
+            self.alignment_file = self.working_dir + "4FAZA.a2m"
 
-        elif self.dataset == "BLAT_ECOLX":
-            self.alignment_file = self.working_dir + "/datasets/BLAT_ECOLX_hmmerbit_plmc_n5_m30_f50_t0.2_r24-286_id100_b105.a2m"
+        elif self.dataset == "short":
+            self.alignment_file = self.working_dir + "4FAZA.a2m"
         #             self.theta = 0.2
 
         elif self.dataset == "PABP_YEAST":
@@ -285,5 +287,7 @@ class DataHelper:
 
     #         print ("Neff =",str(self.Neff))
     #         print ("Data Shape =",self.x_train.shape)
-
+start = time.time()
+DataHelper("short",0.2)
+print('Datahelper: ',time.time()-start,' seconds')
 
