@@ -95,11 +95,11 @@ class DataHelper:
 
     def configure_datasets(self):
 
-        if opt.test_algo:
+        if self.dataset == "small":
             self.alignment_file = self.working_dir + "4FAZA.a2m"
 
-        elif self.dataset == "short":
-            self.alignment_file = self.working_dir + "4FAZA.a2m"
+        elif self.dataset == "large":
+            self.alignment_file = self.working_dir + "benchmark/allpdb0777/concatenation.a2m"
         #             self.theta = 0.2
 
         elif self.dataset == "PABP_YEAST":
@@ -288,9 +288,5 @@ class DataHelper:
     #         print ("Neff =",str(self.Neff))
     #         print ("Data Shape =",self.x_train.shape)
 start = time.time()
-DataHelper("short",0.2)
+DataHelper("small",0.2,working_dir="/home/as974/ada/multimerCorrection")
 print('Datahelper: ',time.time()-start,' seconds')
-<<<<<<< HEAD:fast_weights_arnaud.py
-
-=======
->>>>>>> ff6f782035c67a0cdeb47fd559909af9a6f1036b:python_scripts/fast_weights_arnaud.py
