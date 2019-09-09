@@ -9,5 +9,5 @@
 #SBATCH --mail-user=ayshaw@g.harvard.edu
 module load gcc/6.2.0 cuda/9.0 python/3.6.0
 source ~/jupytervenv/bin/activate
-python fast_weights_arnaud.py
+python ../python_scripts/fast_weights_arnaud.py
 #python multithreading.py 4FAZA.fas 4

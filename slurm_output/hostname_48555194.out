@@ -1,4 +1,0 @@
-  File "multithreading.py", line 76
-    p=mp.Process(target=weights_serial,args=(msa,start_ind,end_ind,weights_file=wts_file))
-                                                                               ^
-SyntaxError: invalid syntax

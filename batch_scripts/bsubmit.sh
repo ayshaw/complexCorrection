@@ -1,5 +1,5 @@
 #!/usr/bin/bash
-#SBATCH -c 16
+#SBATCH -c 4
 #SBATCH -N 1
 #SBATCH -t 1-00:00
 #SBATCH --mem-per-cpu=5GB
@@ -9,5 +9,14 @@
 #SBATCH --mail-user=ayshaw@g.harvard.edu
 module load gcc/6.2.0 cuda/9.0 python/3.6.0
 source ~/jupytervenv/bin/activate
-#python multithreading.py 4FAZA.fas 4
-python multithreading.py benchmark/allpdb0777/concatenation.a2m 16
+#python /home/as974/ada/multimerCorrection/python_scripts/multithreading.py /home/as974/ada/multimerCorrection/datasets/4FAZA.fas 4
+echo "4 cores"
+python /home/as974/ada/multimerCorrection/python_scripts/multithreading.py /home/as974/ada/multimerCorrection/datasets/4FAZA.fas 4
+echo "4 cores"
+python /home/as974/ada/multimerCorrection/python_scripts/multithreading.py /home/as974/ada/multimerCorrection/datasets/4FAZA.fas 4
+echo "4 cores"
+python /home/as974/ada/multimerCorrection/python_scripts/multithreading.py /home/as974/ada/multimerCorrection/datasets/4FAZA.fas 4
+echo "4 cores"
+python /home/as974/ada/multimerCorrection/python_scripts/multithreading.py /home/as974/ada/multimerCorrection/datasets/4FAZA.fas 4
+echo "4 cores"
+python /home/as974/ada/multimerCorrection/python_scripts/multithreading.py /home/as974/ada/multimerCorrection/datasets/4FAZA.fas 4
