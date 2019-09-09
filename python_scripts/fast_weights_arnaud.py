@@ -100,7 +100,7 @@ class DataHelper:
             self.alignment_file = self.working_dir + "/datasets/4FAZA.fas"
 
         elif self.dataset == "large":
-            self.alignment_file = self.working_dir + "/benchmark/allpdb0777/concatenation.a2m"
+            self.alignment_file = self.working_dir + "/benchmark_limited/allpdb0777/concatenation.a2m"
         #             self.theta = 0.2
 
         elif self.dataset == "PABP_YEAST":

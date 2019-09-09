@@ -116,9 +116,9 @@ def mk_msa(seqs):
 	start = time.time()
 	msa_weights_fast = get_eff_lowmem(msa)
 	print('fast pdist implementation: {} seconds'.format(time.time()-start))
-	#start = time.time()
-	#msa_weights = get_eff(msa,0.8)
-	#print('slow pdist implementation: {} seconds'.format(time.time()-start))
+	start = time.time()
+	msa_weights = get_eff(msa,0.8)
+	print('slow pdist implementation: {} seconds'.format(time.time()-start))
 	# compute effective number of sequences
 	#print('difference between pdist:{}'.format(sum(msa_weights_fast-msa_weights)))
 #
